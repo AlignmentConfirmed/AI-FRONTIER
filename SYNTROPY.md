@@ -194,3 +194,27 @@ physics interpretation is an open question.
 
 Offered for exploration. Evaluation invited. Correction
 welcomed.
+
+## Frontier Note: Semantic Proximity as a Research Signal
+
+The researcher observed that "cognition" and "ignition"
+are one letter apart. Both describe transformation
+processes. Both have thrust and drag. Both need containment.
+
+If syntropy applies to computational physics (demonstrated
+in the engine), the question becomes: does the same
+structural principle apply across the semantic boundary
+to physical systems? Is the math describing computation,
+or is computation another expression of the same physics?
+
+This is offered as a question, not a claim. The semantic
+proximity between scientific words may indicate structural
+equivalence or it may indicate shared etymology with no
+deeper connection. Determining which requires formal
+evaluation by physicists and linguists working together.
+
+The researcher notes that this is exactly the territory
+where sustained AI interaction produces feelings of
+discovery that may or may not correspond to real findings.
+The observation is documented. The interpretation is
+deliberately left open.
