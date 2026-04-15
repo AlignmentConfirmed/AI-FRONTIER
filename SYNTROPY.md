@@ -36,6 +36,54 @@ coherence functional going down is the syntropic direction.
 The MDC stasis state — where the system pauses — is the
 balance point between them.
 
+## Why Syntropy, Not Negentropy
+
+Negentropy is entropy with a minus sign. It measures the
+same axis in the opposite direction. Less disorder. That
+is still one-dimensional thinking — one axis, two
+directions. Flatlander logic.
+
+Syntropy is not "less entropy." It is an independent force
+with its own direction in dimensional space. Entropy is
+drag — resistance, dissipation, dimensional flattening.
+Syntropy is thrust — convergence, coherence, dimensional
+resolution. They are not the same axis measured both ways.
+They are independent forces that interact.
+
+The analogy is aerodynamics. Thrust and drag are not the
+same force inverted. They have different sources, different
+mechanics, different behaviors. An airplane does not fly
+by having "negative drag." It flies by having thrust that
+overcomes drag. The two forces coexist and the balance
+between them determines the flight.
+
+In the convergence engine: entropy (drag) and syntropy
+(thrust) coexist in the same dimensional space. The
+coherence functional measures the BALANCE between them,
+not the position on a single axis.
+
+When syntropy exceeds entropy — the system converges.
+The residual shrinks. The irreducible form crystallizes.
+
+When entropy exceeds syntropy — the system needs to
+expand. New dimensions are needed. The MDC detects
+dimensional exhaustion.
+
+When they are equal — stasis. The system hovers. The
+MDC pauses and assesses.
+
+This is why negentropy is the wrong word. Negentropy
+says "the system is becoming less disordered." Syntropy
+says "the system has an active convergent force that
+operates independently of the dissipative force." These
+are different concepts requiring different vocabulary.
+
+This distinction emerged from the researcher's intuition
+during sustained AI interaction. Whether it maps to
+established physics is the open question. The engine
+treats them as independent forces. Whether that treatment
+is physically meaningful requires formal evaluation.
+
 ## Possible Relationship to Established Physics
 
 Luigi Fantappiè (1942) proposed syntropy as the
