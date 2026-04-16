@@ -47,7 +47,7 @@ complete without the other.
 (f32, f64). This introduces rounding error at every operation.
 Errors compound exponentially across billions of operations.
 
-**Required:** Exact rational arithmetic (Q). Every computation
+**Proposed:** Exact rational arithmetic (Q). Every computation
 produces an exact rational result. No rounding. No approximation.
 denom=1 means quantized truth. denom!=1 means unresolved torsion.
 
@@ -75,10 +75,10 @@ this.
 True/false. Gates select paths. The architecture PRESCRIBES which
 computation to perform based on binary conditions.
 
-**Required:** Variational selection. ALL candidates are evaluated.
+**Proposed:** Variational selection. ALL candidates are evaluated.
 The lowest coherence functional wins. Bad operators dissolve
-through score, not through gates. No if/else in the derivation
-path.
+through score, not through gates. The derivation path benefits
+from avoiding if/else branching.
 
 **The bridge:**
 - Hardware: parallel evaluation of ALL candidate operators
@@ -103,7 +103,7 @@ for boolean speed.
 as the primary data structure. Keys are hashed into flat buckets.
 The relational geometry between keys is destroyed.
 
-**Required:** Antisymmetric rational tensors (the Delta). The
+**Proposed:** Antisymmetric rational tensors (the Delta). The
 relationship between entities IS the data. Δ_{ij} = -Δ_{ji}.
 The structure carries cohomological information that a HashMap
 discards.
@@ -130,8 +130,8 @@ manifold that's been flattened into buckets.
 (the error) is treated as noise to be minimized. When loss = 0,
 training stops. The structure of the residual is discarded.
 
-**Required:** The residual IS structured information. Do not gate
-on zero. Do not suppress. MEASURE. The shape of what remains
+**Proposed:** The residual IS structured information. Rather than gating
+on zero or suppressing, consider measuring instead. The shape of what remains
 unresolved IS the map to resolution.
 
 **The bridge:**
@@ -233,7 +233,7 @@ constraints. The Core Design Laws as microcode.
 
 ## The Technical Mapping
 
-| Core Design Law | Current Hardware | Required Hardware Change |
+| Core Design Law | Current Hardware | Proposed Hardware Change |
 |-----------|-----------------|----------------------|
 | I (No boolean gates) | Boolean logic gates | Variational scoring units |
 | II (No HashMaps) | Hash-based memory addressing | Relational tensor memory |
