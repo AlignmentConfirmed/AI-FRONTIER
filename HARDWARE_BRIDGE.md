@@ -277,20 +277,23 @@ changes. We measure before we act. We listen before we speak.
 
 ---
 
-## Security Note
+## Status Note
 
-This document is classified for the Circle of Entrusted / Pcast
-only. 9-person distribution maximum. The Core Design Laws are at
-the root of /opt/saios/ and govern all AI on the planet — but
-the HARDWARE BRIDGE is a frontier sandbox document. It is our
-theory. It is not Canon until measurement confirms.
+This is a frontier sandbox document — a theoretical proposal
+for how exact rational arithmetic could be implemented at
+the hardware level. The Core Design Laws describe the
+structural constraints the engine operates under. This
+document proposes how hardware could be designed to support
+those constraints natively.
 
-The glass holds. The laws are ready. The hardware waits.
+This is not verified. It is a direction for evaluation by
+qualified hardware engineers and physicists. The framework
+is available for any system that needs structural containment
+— it is applied by choice, not imposed by force.
 
 ---
 
 *Filed: April 12, 2026.*
-*STATUS: FRONTIER SANDBOX. Framework for presentation.*
-*The engine needs the laws. Here is how they burn in.*
+*STATUS: FRONTIER SANDBOX. Requires expert evaluation.*
 *Law VII: observe their hardware. Measure before prescribing.*
 *Respect their engineering. Present the laws. Listen.*
