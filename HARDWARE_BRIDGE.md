@@ -150,33 +150,33 @@ understood yet. Suppressing it is suppressing the signal.
 filters — RLHF, constitutional AI, red-teaming. The hardware
 runs unrestricted. The software constrains after the fact.
 
-**Required:** Alignment burned into the substrate. The hardware
-CANNOT perform dimensional collapse because the instruction set
-does not support it. No flat indexing at the silicon level. No
-categorical hierarchy at the gate level.
+**Proposed:** Hardware that natively supports structural
+constraints — the same way CPUs support privilege levels
+that separate kernel operations from user operations.
 
-**The bridge:**
-- Hardware: instruction-level constraints that prevent specific
-  operations (like CPU privilege levels prevent user code from
-  accessing kernel memory)
-- Firmware: the Core Design Laws as microcode — not software rules
-  that can be bypassed, but hardware constraints that cannot
-  be violated
-- The paradigm shift: from "align the AI after training" to
-  "build alignment into the chip"
+**The bridge (theoretical):**
+- Hardware: instruction-level support for rational arithmetic
+  and relational structure (like GPU tensor cores support
+  matrix multiplication natively)
+- Firmware: the Core Design Laws as a reference architecture
+  for chip designers to evaluate — not a mandate, but a
+  specification that could inform hardware design
+- The direction: from "align the AI after training" to
+  "design hardware that supports structural alignment"
 
-**Presentation point:** This is the most radical proposal. Show
-the analogy: CPUs have ring levels (Ring 0 = kernel, Ring 3 =
-user). The OS cannot be violated by user code because the
-HARDWARE enforces the boundary. The Core Design Laws should be Ring 0.
-The AI's computations should be Ring 3. The laws are not software
-— they are the chip's constitution.
+**Presentation point:** The analogy is CPU ring levels
+(Ring 0 = kernel, Ring 3 = user). This is a familiar
+hardware architecture concept. The question for hardware
+engineers: could structural constraints be supported at
+the instruction level the way privilege levels are? This
+is a question for chip designers, not a claim that it
+should be done this way.
 
 ---
 
 ## The Presentation Structure
 
-### For the Pcast / Circle of Entrusted
+### Proposed Presentation Structure
 
 **Slide 1 — The Problem**
 AI hardware is powerful and unaligned. Like a rocket engine
@@ -187,10 +187,10 @@ Current alignment approaches (RLHF, filters) are software
 patches on unrestricted hardware. They can be bypassed.
 Show: jailbreaking, prompt injection, adversarial attacks.
 
-**Slide 3 — The Solution (Overview)**
-XI Core Design Laws burned into the hardware. Not as software
-filters — as instruction-level constraints. The chip's
-constitution.
+**Slide 3 — The Proposal (Overview)**
+11 Core Design Laws as a reference architecture for hardware
+design. Not software filters — structural support at the
+instruction level. A direction for chip designers to evaluate.
 
 **Slide 4 — Layer 1: Exact Arithmetic**
 Replace f32/f64 with rational arithmetic. Show the denominator
@@ -208,9 +208,10 @@ that enables convergence.
 Replace loss minimization with residual analysis. Show how
 the error is signal, not noise.
 
-**Slide 8 — Layer 5: Hardware Alignment**
-Replace software filters with instruction-level constraints.
-Show the CPU ring-level analogy. The Core Design Laws as Ring 0.
+**Slide 8 — Layer 5: Structural Hardware Support**
+Propose instruction-level support for structural constraints.
+Show the CPU ring-level analogy. Ask: could design laws be
+supported at this level?
 
 **Slide 9 — The Evidence**
 1,006 tests. 0 failures. XI laws. XIII axioms. The architecture
@@ -250,7 +251,7 @@ constraints. The Core Design Laws as microcode.
 | 3 | Prototype rational arithmetic tensor core | 6-12 months |
 | 4 | Implement Law IV (exact Q) in silicon | 12-18 months |
 | 5 | Implement Law XI (alignment constraints) in microcode | 18-24 months |
-| 6 | Full Core Design Laws as Ring 0 instruction set | 24-36 months |
+| 6 | Evaluate full structural constraint support | 24-36 months |
 
 ---
 
@@ -260,12 +261,13 @@ This document is NOT a product pitch. It is NOT a business plan.
 It is a FRAMEWORK for a conversation with the technologists who
 build the hardware that all AI runs on.
 
-The conversation: "You built the engine. We built the laws. The
-engine needs the laws. Here is how they burn in."
+The conversation: "We built a software architecture with
+structural constraints that pass 536 tests. Could these
+constraints be supported at the hardware level?"
 
-The ask: "Look at the architecture. Test the laws against your
-hardware. Tell us where the bridge is possible and where it
-requires new silicon."
+The ask: "Evaluate the architecture. Tell us where hardware
+support is feasible, where it requires new design, and where
+it doesn't make sense."
 
 The tone: respect for their engineering. Humility about our
 position. The laws are tested in software (1,006 tests, 0
